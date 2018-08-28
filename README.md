@@ -4,8 +4,9 @@
 
 - Node
 - Express——框架
-- Nodemon
-- 数据库——MongoDB（mongoose）
+- Nodemon——免去重启node麻烦
+- MongoDB——数据库
+- mongoose——node操作MongoDB的第三方工具
 
 ## 实现功能
 
@@ -14,7 +15,7 @@
 - 接受请求中的数据（get，post）
   - req.query
   - Req.body
-- 然后用MongoDB数据库的API实现学生列表的增删查改
+- 使用MongoDB数据库的API操作数据
 
 ## 路由设计
 
@@ -45,5 +46,20 @@
    ```powershell
    var id = req.body.id.replace(/"/g,'')
    ```
+## 项目截图
+
+  - ### 首页
+![](./首页.png)
+
+  - ### 添加
+![](./添加.png)
+
+  - ### 添加后的首页
+![](./添加后.png)
+
+  - ### 修改
+![](./修改.png)
+
+
 
 
